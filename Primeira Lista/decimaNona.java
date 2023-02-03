@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class oitava {
+public class decimaNona {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
@@ -21,7 +21,7 @@ public class oitava {
                     System.out.println("Você saiu do programa");
                     break;
                 case 1:
-                    System.out.println("\tOpção escolhida: SOMA");
+                    System.out.println("Opção escolhida: SOMA");
                     System.out.println("Digite um número para somar");
                     int n1 = scan.nextInt();
                     System.out.println("Digite outro número para somar");
@@ -30,7 +30,7 @@ public class oitava {
                     break;
 
                 case 2:
-                    System.out.println("\tOpção escolhida: SUBTRAÇÃO");
+                    System.out.println("Opção escolhida: SUBTRAÇÃO");
                     System.out.println("Digite o número que deseja");
                     int n3 = scan.nextInt();
                     System.out.println("Digite outro número para subtrair do anterior");
@@ -39,7 +39,7 @@ public class oitava {
                     break;
 
                 case 3:
-                    System.out.println("\tOpção escolhida: MULTIPLICAÇÃO");
+                    System.out.println("Opção escolhida: MULTIPLICAÇÃO");
                     System.out.println("Digite o número que deseja multiplicar");
                     int n5 = scan.nextInt();
                     System.out.println("Digite o outro número que deseja multiplicar pelo digitado anteriormente");
@@ -48,7 +48,7 @@ public class oitava {
                     break;
 
                 case 4:
-                    System.out.println("\tOpção escolhida: DIVISÃO");
+                    System.out.println("Opção escolhida: DIVISÃO");
                     System.out.println("Digite o número que deseja dividir");
                     int n7 = scan.nextInt();
                     System.out.println("Digite o divisor");
@@ -65,6 +65,10 @@ public class oitava {
     }
 }
 
-// Altere o programa a seguir para permitir que o usuário digite dois valores e
-// mostre o resultado da operação escolhida.
-// O flag de parada é a escolha do valor zero pelo usuário.
+/*
+ * Faça um programa em Java que apresente um menu de opções para o cálculo das
+ * seguintes operações entre dois
+ * números: adição, subtração, multiplicação e divisão. Possibilite ao
+ * usuário escolher a operação desejada, mostrar o resultado e voltar ao menu de
+ * opções.
+ */

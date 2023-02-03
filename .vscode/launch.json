@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch vigesima",
+            "request": "launch",
+            "mainClass": "vigesima",
+            "projectName": "PROG3_700263aa"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
