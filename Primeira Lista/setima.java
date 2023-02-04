@@ -6,11 +6,11 @@ public class setima {
 
         System.out.println("Digite um número");
         int n = ler.nextInt();
-        
-        for(int x = n; x < (n+n) ;x--){
-            if(x % 4 == 0){
+
+        for (int x = n; x < (n + n); x--) {
+            if (x % 4 == 0) {
                 System.out.println(x);
-            }else if(x<0){
+            } else if (x < 0) {
                 break;
             }
         }
@@ -19,3 +19,9 @@ public class setima {
 
     }
 }
+
+/*
+ * Desenvolva um programa Java que leia o valor de N e imprima os números
+ * menores
+ * que N que são divisíveis por 4.
+ */

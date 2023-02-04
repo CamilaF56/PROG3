@@ -14,10 +14,18 @@ public class quarta {
 
         if (lado1 == lado2 && lado2 == lado3) {
             JOptionPane.showMessageDialog(null, "Triângulo equilátero");
-        } else if ( lado1 == lado2 || lado2 == lado3 || lado3 == lado1 ) {
+        } else if (lado1 == lado2 || lado2 == lado3 || lado3 == lado1) {
             JOptionPane.showMessageDialog(null, "Triângulo isósceles");
         } else {
             JOptionPane.showMessageDialog(null, "Triângulo escaleno");
         }
     }
 }
+/*
+ * Implemente um programa em Java que leia as medidas dos lados de um triângulo
+ * e
+ * escreva se ele é equilátero, isósceles ou escaleno. Sendo que:
+ *  Triângulo Equilátero: possui os 3 lados iguais.
+ *  Triângulo Isósceles: possui 2 lados iguais.
+ *  Triângulo Escaleno: possui 3 lados diferentes.
+ */

@@ -14,11 +14,20 @@ public class quinta {
                 maior = valor;
             if (valor < menor)
                 menor = valor;
-        leitura = JOptionPane.showInputDialog("Valor - 0 finaliza");
-        valor = Integer.parseInt(leitura);
-        JOptionPane.showMessageDialog(null, "O maior valor lido foi: " + maior);
-        JOptionPane.showMessageDialog(null, "O menor valor lido foi: " + menor);   
+            leitura = JOptionPane.showInputDialog("Valor - 0 finaliza");
+            valor = Integer.parseInt(leitura);
+            JOptionPane.showMessageDialog(null, "O maior valor lido foi: " + maior);
+            JOptionPane.showMessageDialog(null, "O menor valor lido foi: " + menor);
         }
-        
+
     }
 }
+
+/*
+ * Faça um programa que receba um conjunto de valores inteiros e positivos e
+ * que
+ * calcule e mostre o maior e o menor valor do conjunto. Considere que:
+ *  Para encerrar a entrada de dados, deve ser digitado o valor zero;
+ *  Para valores negativos, deve ser enviada uma mensagem;
+ *  Os valores negativos ou iguais a zero não entrarão nos cálculos.
+ */

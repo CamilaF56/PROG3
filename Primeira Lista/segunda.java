@@ -10,6 +10,13 @@ public class segunda {
         String des = JOptionPane.showInputDialog("Digite o valor total dos descontos de um funcionário");
         int dess = Integer.parseInt(des);
 
-        JOptionPane.showMessageDialog(null, nome+" recebe R$"+(sall-dess)+",00 reais");
+        JOptionPane.showMessageDialog(null, nome + " recebe R$" + (sall - dess) + ",00 reais");
     }
 }
+
+/*
+ * Faça um programa Java que leia o nome, o salário bruto e o valor total dos
+ * descontos de um funcionário. Ao final mostre o nome e o salário líquido
+ * (bruto –
+ * desconto). Use a classe JOptionPane para fazer a leitura.
+ */
