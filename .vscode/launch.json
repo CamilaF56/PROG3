@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AppFunc",
+            "request": "launch",
+            "mainClass": "funcionarios.AppFunc",
+            "projectName": "PROG3_700263aa"
+        },
+        {
+            "type": "java",
             "name": "Launch vigesima",
             "request": "launch",
             "mainClass": "vigesima",
